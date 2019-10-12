@@ -1,0 +1,45 @@
+
+##############################################################
+
+BLU.name=BLU.2
+
+BLU.upload.tool=avrdude
+BLU.upload.protocol=arduino
+
+BLU.bootloader.tool=avrdude
+BLU.bootloader.low_fuses=0xff
+BLU.bootloader.unlock_bits=0x3F
+BLU.bootloader.lock_bits=0x0F
+
+BLU.build.f_cpu=16000000L
+BLU.build.board=AVR_MINI
+BLU.build.core=arduino
+BLU.build.variant=eightanaloginputs
+
+## BLU.2 w/ ATmega328P
+## --------------------------
+BLU.menu.cpu.atmega328=ATmega328P
+
+BLU.menu.cpu.atmega328.upload.maximum_size=28672
+BLU.menu.cpu.atmega328.upload.maximum_data_size=2048
+BLU.menu.cpu.atmega328.upload.speed=115200
+
+BLU.menu.cpu.atmega328.bootloader.high_fuses=0xd8
+BLU.menu.cpu.atmega328.bootloader.extended_fuses=0xFD
+BLU.menu.cpu.atmega328.bootloader.file=optiboot/optiboot_atmega328-Mini.hex
+
+BLU.menu.cpu.atmega328.build.mcu=atmega328p
+
+## BLU.2 w/ ATmega168
+## -------------------------
+BLU.menu.cpu.atmega168=ATmega168
+
+BLU.menu.cpu.atmega168.upload.maximum_size=14336
+BLU.menu.cpu.atmega168.upload.maximum_data_size=1024
+BLU.menu.cpu.atmega168.upload.speed=19200
+
+BLU.menu.cpu.atmega168.bootloader.high_fuses=0xdd
+BLU.menu.cpu.atmega168.bootloader.extended_fuses=0xF8
+BLU.menu.cpu.atmega168.bootloader.file=atmega/ATmegaBOOT_168_ng.hex
+
+BLU.menu.cpu.atmega168.build.mcu=atmega168
