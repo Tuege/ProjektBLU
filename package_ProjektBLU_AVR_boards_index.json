@@ -14,17 +14,17 @@
          {
            "category": "Contributed",
            "help":{"online": "https://github.com/Tuege/ProjektBLU/wiki"},
-           "url": "https://tuege.github.io/ProjektBLU/packages/projektblu-avr-v1.0.0.zip",
-           "checksum": "SHA-256:DAD0C1C754ABF93F5F0A94FE210986AC3C94F334A87157171D82AA27759AEEE3",
-           "archiveFileName": "projektblu-avr-v1.0.0.zip",
-           "size": "2933",
+           "url": "https://tuege.github.io/ProjektBLU/packages/ProjektBLU.zip",
+           "checksum": "SHA-256:EE9340358588F026F107C98B9C18EF151B2881D8FD71701C2178949820DD33FA",
+           "archiveFileName": "ProjektBLU.zip",
+           "size": "2780",
            "name": "Projekt BLU AVR Boards",
            "version": "1.0.0",
            "architecture": "avr",
            "boards": 
            [
              {
-               "name": "BLU.2"
+               "name": "BLU-v2"
              }
            ],
            "toolsDependencies": []
